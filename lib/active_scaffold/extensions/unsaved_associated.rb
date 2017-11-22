@@ -1,3 +1,5 @@
+require 'active_record'
+
 # save and validation support for associations.
 class ActiveRecord::Base
   def associated_valid?(path = [])
